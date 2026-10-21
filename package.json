@@ -1,0 +1,11 @@
+{
+  "name": "limd",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "dev:web": "npm -w @limd/web run dev",
+    "build:web": "npm -w @limd/web run build",
+    "typecheck": "npm -w @limd/api-client run typecheck && npm -w @limd/web run typecheck"
+  }
+}
