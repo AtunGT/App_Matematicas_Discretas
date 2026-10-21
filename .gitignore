@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.env.*
+a.json
+d.json
+reg.json
+doc.json
+kat.json
